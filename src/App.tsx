@@ -46,7 +46,8 @@ const App = () => {
   return (
     <div className="app">
       <div className="div-container" onClick={handleDivClick}>
-        Click Me
+        <input type="checkbox" id="checkbox" /> &nbsp;{' '}
+        <label htmlFor="checkbox">I am not a bot</label>
       </div>
 
       {showPopup && (
